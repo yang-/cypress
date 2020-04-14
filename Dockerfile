@@ -1,5 +1,5 @@
 FROM centos:7
-RUN yum install -y gtk2 gtk3 libnotify-devel GConf2 nss libXScrnSaver alsa-lib libxtst6 xorg-x11-server-Xvfb
+RUN yum install -y gtk2 gtk3 libnotify-devel GConf2 nss libXScrnSaver alsa-lib libXtst xorg-x11-server-Xvfb
 # EXPOSE 80
 # CMD ["/usr/sbin/init"]
 RUN yum install -y git curl sudo
